@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Classe Studio | Barbearia premium na Rua Icatu, 950, São José dos Campos. Planos mensalistas, cortes, barba, barbaterapia, ozonioterapia capilar, platinado e química. Agende pelo Booksy.">
+  <title>Classe Studio Barbearia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..700&family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__in">
+    <div class="loader__word"><span>Classe</span></div>
+    <div class="loader__bar"><i></i></div>
+    <div class="mono" style="color:var(--mute)"><span id="loadNum">0</span>%</div>
+  </div>
+</div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor__label" id="cursorLabel" aria-hidden="true">Agendar</div>
+
+<header class="nav" id="nav">
+  <a href="#topo" class="logo" aria-label="Classe Studio, início"><b>Classe</b><span>Studio · Barbearia</span></a>
+  <nav class="nav__links" aria-label="Seções">
+    <a href="#conceito">Conceito</a>
+    <a href="#planos">Planos</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#comodidades">Comodidades</a>
+    <a href="#visite">Visite</a>
+  </nav>
+  <a class="btn btn--brass btn--sm magnetic" data-cursor="Agendar" href="https://booksy.com/pt-br/346301_classe-studio-barbearia_barbearias_1026706_sao-jose-dos-campos#ba_s=seo" target="_blank" rel="noopener">Agendar horário</a>
+</header>
+
+<main id="topo">
+  <!-- HERO -->
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div>
+      <div class="hero__meta mono">
+        <span><span class="dot"></span>Aberto todos os dias · 09h–20h</span>
+        <span>Rua Icatu, 950 · São José dos Campos</span>
+      </div>
+      <h1 id="hero-title">
+        <span class="row"><span>Classe</span></span>
+        <span class="row"><span class="it">Studio</span><span>.</span></span>
+      </h1>
+      <div class="hero__foot">
+        <p class="hero__lede reveal"><strong>Barbearia de padrão premium</strong> para quem trata o corte como ritual: navalha, toalha quente, terapias capilares e química feita com calma. Nota <strong>5,0</strong> em 40 avaliações no Booksy.</p>
+        <div class="hero__ctas reveal">
+          <a class="btn btn--brass magnetic" data-cursor="Agendar" href="https://booksy.com/pt-br/346301_classe-studio-barbearia_barbearias_1026706_sao-jose-dos-campos#ba_s=seo" target="_blank" rel="noopener">Agendar no Booksy
+            <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--ghost magnetic" href="#planos">Ver planos mensais</a>
+        </div>
+      </div>
+    </div>
+    <div class="pole" aria-hidden="true">
+      <span class="pole__label mono">Desde a primeira navalha</span>
+      <div class="pole__cap"></div>
+      <div class="pole__glass"><div class="pole__stripes" id="poleStripes"></div></div>
+      <div class="pole__cap pole__cap--b"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" id="marquee">
+      <div class="marquee__group"><span>Corte</span><i>✦</i><span>Barba</span><i>✦</i><span>Barbaterapia</span><i>✦</i><span>Ozonioterapia</span><i>✦</i><span>Platinado</span><i>✦</i><span>Luzes</span><i>✦</i><span>Selagem</span><i>✦</i></div>
+      <div class="marquee__group"><span>Corte</span><i>✦</i><span>Barba</span><i>✦</i><span>Barbaterapia</span><i>✦</i><span>Ozonioterapia</span><i>✦</i><span>Platinado</span><i>✦</i><span>Luzes</span><i>✦</i><span>Selagem</span><i>✦</i></div>
+    </div>
+  </div>
+
+  <!-- CONCEITO -->
+  <section class="sec wrap" id="conceito" aria-labelledby="conceito-title">
+    <div class="manifesto">
+      <p class="mono brass" id="conceito-title">O conceito</p>
+      <p class="manifesto__text" id="manifesto">Na Classe, cada atendimento tem hora marcada e tempo de sobra. Sem fila, sem pressa. A cadeira é sua do primeiro risco de navalha até a <span class="it">última</span> passada de pomada, com um barbeiro que lembra como você gosta.</p>
+    </div>
+    <div class="manifesto__facts">
+      <div class="fact reveal"><b class="fact__num"><span class="count" data-to="5" data-dec="1">5,0</span></b><span class="fact__label">nota média no Booksy</span></div>
+      <div class="fact reveal"><b class="fact__num"><span class="count" data-to="40">40</span></b><span class="fact__label">avaliações de clientes</span></div>
+      <div class="fact reveal"><b class="fact__num"><span class="count" data-to="11">11</span>h</b><span class="fact__label">abertos por dia, 09h às 20h</span></div>
+      <div class="fact reveal"><b class="fact__num"><span class="count" data-to="7">7</span>/7</b><span class="fact__label">dias da semana</span></div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section class="plans sec wrap" id="planos" aria-labelledby="planos-title">
+    <div class="sec__head">
+      <p class="mono">Mensalistas</p>
+      <div>
+        <h2 class="h2 split" id="planos-title">Seu corte em dia, <span class="it">todo mês.</span></h2>
+      </div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:20px">
+      <div class="toggle" role="group" aria-label="Tipo de plano" id="toggle">
+        <span class="toggle__pill" id="pill"></span>
+        <button type="button" id="opt-cabelo" aria-pressed="true" data-mode="cabelo">Cabelo</button>
+        <button type="button" id="opt-ambos" aria-pressed="false" data-mode="ambos">Cabelo + Barba</button>
+      </div>
+      <p class="plans__intro" style="margin-bottom:36px">Uma mensalidade fixa e agendamento como mensalista direto no Booksy. Escolha só o cabelo ou o combo com barba.</p>
+    </div>
+    <div class="plans__grid">
+      <article class="plan plan--standart tilt">
+        <div class="plan__top">
+          <h3 class="plan__name">Mensal <span class="it">Standart</span></h3>
+          <span class="badge" data-label-standart>Só cabelo</span>
+        </div>
+        <div class="price"><small>R$</small><b class="pnum" data-cabelo="109" data-ambos="199">109</b><sup>,90</sup><span class="per">/mês</span></div>
+        <ul>
+          <li>Mensalidade fixa, sem surpresa no fim do mês</li>
+          <li>Agende pelo Booksy como “Sou Mensalista Standart”</li>
+          <li data-swap-standart>Atendimento de cabelo de 30 minutos</li>
+        </ul>
+        <a class="btn btn--brass magnetic" data-cursor="Assinar" href="https://booksy.com/pt-br/346301_classe-studio-barbearia_barbearias_1026706_sao-jose-dos-campos#ba_s=seo" target="_blank" rel="noopener">Assinar Standart
+          <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="plan plan--premium tilt">
+        <div class="plan__top">
+          <h3 class="plan__name">Mensal <span class="it">Premium</span></h3>
+          <span class="badge">Mais pedido</span>
+        </div>
+        <div class="price"><small>R$</small><b class="pnum" data-cabelo="119" data-ambos="209">119</b><sup>,90</sup><span class="per">/mês</span></div>
+        <ul>
+          <li>A experiência completa da Classe, todo mês</li>
+          <li>Agende pelo Booksy como “Sou Mensalista Premium”</li>
+          <li data-swap-premium>Atendimento de cabelo de 30 minutos</li>
+        </ul>
+        <a class="btn btn--brass magnetic" data-cursor="Assinar" href="https://booksy.com/pt-br/346301_classe-studio-barbearia_barbearias_1026706_sao-jose-dos-campos#ba_s=seo" target="_blank" rel="noopener">Assinar Premium
+          <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+    </div>
+    <p class="plans__note">Valores conforme o Booksy da Classe Studio. O que cada plano inclui é confirmado na barbearia no momento da adesão.</p>
+  </section>
+
+  <!-- SERVIÇOS (horizontal) -->
+  <section class="menu" id="servicos" aria-labelledby="servicos-title">
+    <div class="menu__pin" id="menuPin">
+      <div class="menu__head wrap">
+        <div class="sec__head" style="margin-bottom:clamp(32px,5vh,56px)">
+          <p class="mono brass">O cardápio</p>
+          <h2 class="h2 split" id="servicos-title">Do corte à <span class="it">química.</span></h2>
+        </div>
+      </div>
+      <div class="menu__track" id="menuTrack">
+        <article class="panel">
+          <div class="panel__top"><h3>Cabelo <span class="it">&amp; barba</span></h3><span class="mono" style="color:var(--mute)">Clássicos</span></div>
+          <p>Corte na tesoura ou máquina, barba desenhada na navalha e acabamento conferido no espelho.</p>
+          <ul class="rows">
+            <li><span class="n">Corte de cabelo</span><span class="t">30 min</span><span class="p"><small>R$</small>40</span></li>
+            <li><span class="n">Cabelo e barba</span><span class="t">1 h</span><span class="p"><small>R$</small>80</span></li>
+            <li><span class="n">Corte, barba e sobrancelha</span><span class="t">1 h</span><span class="p"><small>R$</small>90</span></li>
+            <li><span class="n">Barba express</span><span class="t">20 min</span><span class="p"><small>R$</small>30</span></li>
+            <li><span class="n">Corte e sobrancelha</span><span class="t">30 min</span><span class="p"><small>R$</small>50</span></li>
+            <li><span class="n">Corte e bigode</span><span class="t">30 min</span><span class="p"><small>R$</small>50</span></li>
+            <li><span class="n">Corte, sobrancelha e bigode</span><span class="t">45 min</span><span class="p"><small>R$</small>60</span></li>
+          </ul>
+        </article>
+        <article class="panel panel--feature">
+          <div class="panel__top"><h3>Terapias <span class="it">capilares</span></h3><span class="mono brass">Ritual</span></div>
+          <div class="therapy">
+            <div class="therapy__item">
+              <h4>Barbaterapia</h4><span class="p">R$ 40</span>
+              <p>Toalha quente, vapor e massagem facial preparam a pele antes da navalha. A barba sai macia e o rosto, descansado. 30 minutos.</p>
+            </div>
+            <div class="therapy__item">
+              <h4>Ozonioterapia capilar</h4><span class="p">R$ 25</span>
+              <p>Aplicação de ozônio no couro cabeludo para higienizar e equilibrar a oleosidade. Um complemento rápido de 10 minutos ao corte.</p>
+            </div>
+            <div class="therapy__item">
+              <h4>Hidratação</h4><span class="p">R$ 15</span>
+              <p>Reposição de água e brilho para os fios, em 15 minutos.</p>
+            </div>
+          </div>
+        </article>
+        <article class="panel">
+          <div class="panel__top"><h3>Platinado <span class="it">&amp; química</span></h3><span class="mono" style="color:var(--mute)">3 h de cadeira</span></div>
+          <div class="bigprice"><b>180</b><span>reais pelo platinado,<br>feito sem pressa</span></div>
+          <ul class="rows">
+            <li><span class="n">Platinado</span><span class="t">3 h</span><span class="p"><small>R$</small>180</span></li>
+            <li><span class="n">Luzes + corte</span><span class="t">3 h</span><span class="p"><small>R$</small>120</span></li>
+            <li><span class="n">Selagem</span><span class="t">30 min</span><span class="p"><small>R$</small>70</span></li>
+          </ul>
+        </article>
+        <article class="panel">
+          <div class="panel__top"><h3>Acaba<span class="it">mento</span></h3><span class="mono" style="color:var(--mute)">Detalhes</span></div>
+          <p>Os ajustes rápidos entre um corte e outro.</p>
+          <ul class="rows">
+            <li><span class="n">Sobrancelha</span><span class="t">5 min</span><span class="p"><small>R$</small>10</span></li>
+            <li><span class="n">Pezinho</span><span class="t">10 min</span><span class="p"><small>R$</small>15</span></li>
+            <li><span class="n">Limpeza na cera</span><span class="t">5 min</span><span class="p"><small>R$</small>20</span></li>
+            <li><span class="n">Raspar o cabelo</span><span class="t">10 min</span><span class="p"><small>R$</small>20</span></li>
+          </ul>
+        </article>
+        <article class="panel panel--end">
+          <h3>Escolheu? <span class="it">Reserve.</span></h3>
+          <p>Todos os serviços e horários livres estão no Booksy. Leva menos de um minuto.</p>
+          <a class="btn magnetic" data-cursor="Agendar" href="https://booksy.com/pt-br/346301_classe-studio-barbearia_barbearias_1026706_sao-jose-dos-campos#ba_s=seo" target="_blank" rel="noopener">Agendar agora
+            <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+      </div>
+      <div class="menu__progress" aria-hidden="true"><i id="menuProg"></i></div>
+    </div>
+  </section>
+
+  <!-- COMODIDADES -->
+  <section class="sec wrap" id="comodidades" aria-labelledby="amen-title">
+    <div class="sec__head">
+      <p class="mono brass">Comodidades</p>
+      <h2 class="h2 split" id="amen-title">Pensado para você <span class="it">chegar bem.</span></h2>
+    </div>
+    <div class="amen">
+      <div class="amen__item reveal-stagger">
+        <span class="mono">Chegada</span>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="6" width="36" height="36" rx="8"/><path d="M19 34V14h7a6 6 0 0 1 0 12h-7"/></svg>
+        <h3>Estacionamento</h3><p>Vaga para estacionar na hora do seu horário.</p>
+      </div>
+      <div class="amen__item reveal-stagger">
+        <span class="mono">Conexão</span>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 19a26 26 0 0 1 36 0M12 25.5a17 17 0 0 1 24 0M18 32a8 8 0 0 1 12 0"/><circle cx="24" cy="38" r="1.8"/></svg>
+        <h3>Wi-Fi</h3><p>Internet liberada enquanto espera ou durante a química.</p>
+      </div>
+      <div class="amen__item reveal-stagger">
+        <span class="mono">Companhia</span>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="32" rx="8" ry="7"/><ellipse cx="13" cy="20" rx="3.6" ry="4.6"/><ellipse cx="35" cy="20" rx="3.6" ry="4.6"/><ellipse cx="19.5" cy="12.5" rx="3.2" ry="4.2"/><ellipse cx="28.5" cy="12.5" rx="3.2" ry="4.2"/></svg>
+        <h3>Pet friendly</h3><p>Seu cachorro pode vir junto e esperar com você.</p>
+      </div>
+      <div class="amen__item reveal-stagger">
+        <span class="mono">Acesso</span>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="9" r="3.4"/><path d="M24 14v14h10l4 10M24 20h9"/><path d="M18.5 22.5a10 10 0 1 0 12.4 13.8"/></svg>
+        <h3>Acessibilidade</h3><p>Espaço acessível para pessoas com deficiência.</p>
+      </div>
+      <div class="amen__item reveal-stagger">
+        <span class="mono">Pagamento</span>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="11" width="38" height="26" rx="4"/><path d="M5 19h38M11 30h8"/></svg>
+        <h3>Cartão</h3><p>Aceitamos pagamento com cartão de crédito.</p>
+      </div>
+      <div class="amen__item reveal-stagger">
+        <span class="mono">Fidelidade</span>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6l5.3 11 12 1.6-8.7 8.3 2.1 11.9L24 33.2 13.3 38.8l2.1-11.9-8.7-8.3 12-1.6z"/></svg>
+        <h3>Programa de fidelidade</h3><p>Quem volta sempre é recompensado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPE -->
+  <section class="sec wrap" id="equipe" aria-labelledby="equipe-title" style="padding-top:0">
+    <div class="sec__head">
+      <p class="mono brass">Na cadeira</p>
+      <h2 class="h2 split" id="equipe-title">Quem cuida <span class="it">do seu corte.</span></h2>
+    </div>
+    <div class="team">
+      <article class="barber reveal">
+        <div class="barber__art"><span class="mono-letter parallax">N</span></div>
+        <div class="barber__body"><h3>Nathan Lopes</h3><span class="mono">Barbeiro</span></div>
+      </article>
+      <article class="barber reveal">
+        <div class="barber__art"><span class="mono-letter parallax">G</span></div>
+        <div class="barber__body"><h3>Gabriel Ferreira</h3><span class="mono">Barbeiro</span></div>
+      </article>
+    </div>
+    <div class="reviews reveal">
+      <div class="reviews__score">
+        <b>5,0</b>
+        <div>
+          <div class="stars" aria-label="5 de 5 estrelas">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg>
+          </div>
+          <p class="mono" style="margin:8px 0 0;color:var(--mute)">40 avaliações no Booksy</p>
+        </div>
+      </div>
+      <a class="btn btn--ghost magnetic" href="https://booksy.com/pt-br/346301_classe-studio-barbearia_barbearias_1026706_sao-jose-dos-campos#ba_s=seo" target="_blank" rel="noopener">Ler avaliações</a>
+    </div>
+  </section>
+
+  <!-- VISITE -->
+  <section class="sec wrap final" id="visite" aria-labelledby="final-title">
+    <p class="mono brass">Sua vez</p>
+    <h2 class="final__big" id="final-title">
+      <span class="row"><span>Reserve</span></span>
+      <span class="row"><span>sua <span class="it">cadeira.</span></span></span>
+    </h2>
+    <div class="final__cta">
+      <a class="btn btn--brass magnetic" data-cursor="Agendar" href="https://booksy.com/pt-br/346301_classe-studio-barbearia_barbearias_1026706_sao-jose-dos-campos#ba_s=seo" target="_blank" rel="noopener">Agendar no Booksy
+        <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn--ghost magnetic" href="#planos">Conhecer os planos</a>
+    </div>
+    <div class="final__grid">
+      <div class="reveal">
+        <h4 class="mono">Endereço</h4>
+        <p id="addr">Rua Icatu, 950</p>
+        <p class="sub">CEP 12237-010 · São José dos Campos, SP</p>
+        <button type="button" class="copy" id="copyAddr">Copiar endereço</button>
+      </div>
+      <div class="reveal">
+        <h4 class="mono">Horário</h4>
+        <p>Todos os dias</p>
+        <p class="sub">09h às 20h, com hora marcada</p>
+      </div>
+      <div class="reveal">
+        <h4 class="mono">Agendamento</h4>
+        <p>Online pelo Booksy</p>
+        <p class="sub">Escolha serviço, barbeiro e horário</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Classe Studio · Barbearia</span>
+  <span>Rua Icatu, 950 · São José dos Campos</span>
+</footer>
+
+<div class="dock"><a class="btn btn--brass" href="https://booksy.com/pt-br/346301_classe-studio-barbearia_barbearias_1026706_sao-jose-dos-campos#ba_s=seo" target="_blank" rel="noopener">Agendar horário</a></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/main.js?v=4"></script>
+</body>
+</html>
